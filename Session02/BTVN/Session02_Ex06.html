@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        fieldset {
+            line-height: 2;
+            max-width: 750px;
+            margin-bottom: 20px;
+        }
+
+        #note {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <h1>Hồ sơ thông tin cá nhân</h1>
+
+            <fieldset>
+                <legend>Thông tin cá nhân</legend>
+
+                <label for="name">Tên:</label>
+                <input type="text" name="name" id="name" placeholder="Nhập họ và tên...">
+
+                <br>
+
+                <label for="birth_day">Ngày sinh:</label>
+                <input type="date" name="birth_day" id="birth_day">
+            </fieldset>
+
+            <fieldset>
+                <legend>Thông tin liên hệ</legend>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com">
+
+                <br>
+
+                <label for="phone_number">Số điện thoại:</label>
+                <input type="text" name="sdt" id="phone_number" placeholder="0912345678">
+            </fieldset>
+
+            <label for="note">Ghi chú bổ sung:</label>
+            <br>
+            <textarea name="note" id="note" rows="5" cols="50" placeholder="Nhập ghi chú của bạn tại đây..."></textarea>
+        </form>
+    </main>
+</body>
+
+</html>

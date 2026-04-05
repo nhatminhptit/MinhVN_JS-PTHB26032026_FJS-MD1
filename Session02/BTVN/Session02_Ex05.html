@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        fieldset {
+            margin-top: 10px;
+            max-width: 500px;
+        }
+
+        #nation {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <h1>Khảo sát dịch vụ khách hàng</h1>
+
+            <label for="age_form">Độ tuổi của bạn:</label>
+            <input type="text" name="tuoi" id="age_form" required>
+
+            <fieldset>
+                <legend>Giới tính của bạn là gì?</legend>
+
+                <input type="radio" name="gioi_tinh" id="nam" value="nam">
+                <label for="nam">Nam</label>
+
+                <input type="radio" name="gioi_tinh" id="nu" value="nu">
+                <label for="nu">Nữ</label>
+
+                <input type="radio" name="gioi_tinh" id="other" value="other">
+                <label for="other">Khác</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Dịch vụ bạn đang quan tâm (có thể chọn nhiều):</legend>
+
+                <input type="checkbox" name="dich_vu" id="website" value="website">
+                <label for="website">Website</label>
+
+                <input type="checkbox" name="dich_vu" id="mobile_app" value="mobile_app">
+                <label for="mobile_app">Mobile App</label>
+
+                <input type="checkbox" name="dich_vu" id="marketing" value="marketing">
+                <label for="marketing">Marketing</label>
+            </fieldset>
+
+            <br>
+
+            <label for="quoc_gia">Quốc gia đang sinh sống:</label>
+            <select name="quoc_gia" id="nation" required>
+                <option value="" disabled selected hidden>-- Vui lòng chọn --</option>
+                <option value="vn">Việt Nam</option>
+                <option value="nb">Nhật Bản</option>
+                <option value="hk">Hoa Kỳ</option>
+            </select>
+
+            <br>
+
+            <input type="submit" name="" id="" value="Gửi thông tin">
+        </form>
+    </main>
+</body>
+
+</html>

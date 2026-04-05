@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        fieldset {
+            line-height: 2;
+            max-width: 750px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form action="" method="post" enctype="multipart/form-data">
+            <h1>Nộp hồ sơ ứng tuyển</h1>
+
+            <fieldset>
+                <legend>Thông tin liên hệ</legend>
+
+                <label for="name">Họ và tên:</label>
+                <input type="text" name="name" id="name" required>
+
+                <br>
+
+                <label for="phone_number">Số điện thoại:</label>
+                <input type="text" name="phone_number" id="phone_number" placeholder="0912345678" required
+                    pattern="[0][1-9][0-9]{8}">
+            </fieldset>
+
+            <fieldset>
+                <legend>Hồ sơ đính kèm</legend>
+
+                <label for="file_upload">Tải lên CV (Định dạng PDF/Word):</label>
+                <input type="file" name="file_upload" id="file_upload">
+            </fieldset>
+
+            <input type="submit" name="" id="" value="Nộp hồ sơ">
+        </form>
+    </main>
+</body>
+
+</html>
