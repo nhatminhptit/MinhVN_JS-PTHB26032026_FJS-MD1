@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.promo {
+    max-width: 550px;
+    background: rgba(244, 235, 216) 
+    url('https://img.pikbest.com/png-images/20250607/roasted-coffee-beans-falling-isolated-on-transparent-background_11751594.png!bw700') top right / 112px no-repeat;
+    
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(209, 93, 18);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.promo-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(209, 93, 18);
+    margin-bottom: 20px;
+    
+}
+
+.promo-desc {
+    text-align: justify;
+    line-height: 1.5;
+    color: #4a4a4a;
+}

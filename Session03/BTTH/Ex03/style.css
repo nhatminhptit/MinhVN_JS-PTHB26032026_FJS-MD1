@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-size: 16px;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('https://cache.marriott.com/is/image/marriotts7prod/fp-dadfp-ocean-view-36907:Feature-Hor?wid=1920&fit=constrain') center / cover  no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 850px;
+    color: #ffffff;
+}
+
+.hero-title {
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+    line-height: 1.3;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+}

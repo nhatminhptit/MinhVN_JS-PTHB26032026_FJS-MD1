@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, san-serif;
+}
+
+main {
+    
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.author {
+    max-width: 400px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.author-name {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    font-weight: 900;
+}
+
+.author-role {
+    font-size: 1em;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.author-desc {
+    font-size: 0.875em;
+    line-height: 1.5;
+}

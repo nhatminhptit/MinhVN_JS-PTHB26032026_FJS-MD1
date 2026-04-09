@@ -1,0 +1,55 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.courses {
+    max-width: 450px;
+    line-height: 1.4;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 2%;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.courses-title {
+    font-size: 1.5em;
+}
+
+.courses-title + p {
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: rgb(114, 105, 100);
+    line-height: 1.4;
+}
+
+.courses-list {
+    padding-left: 16px;
+}
+
+li {
+    color: initial;
+    font-weight: initial;
+    list-style-type: square;
+}
+
+.courses-list > li {
+    color: rgb(216, 54, 49);
+    font-weight: 600;
+}
+
+.courses-list > li > a {
+    text-decoration: none;
+    color: rgb(37, 140, 204);
+}
+
+.courses-list > li > a:hover {
+    text-decoration: underline;
+}
