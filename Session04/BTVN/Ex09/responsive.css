@@ -1,0 +1,12 @@
+@media (max-width: 992px) {
+  .product-card {
+    display: block;
+    width: calc(100% - 64px);
+    margin: 32px;
+    min-height: auto;
+  }
+
+  .product-desc {
+    height: auto;
+  }
+}

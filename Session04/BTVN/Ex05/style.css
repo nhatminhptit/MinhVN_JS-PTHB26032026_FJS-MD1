@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  height: 695px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.enroll {
+  width: 600px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 44px 48px;
+  margin: 200px auto 0;
+}
+
+.enroll-title {
+  color: rgb(234 73 61);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.enroll-subtitle {
+  color: rgb(84 88 97);
+  margin-bottom: 32px;
+}
+
+.enroll-form {
+  display: flex;
+  gap: 32px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.enroll-input {
+  padding: 8px 16px;
+  font-size: 16px;
+  flex-grow: 1;
+  border: 1px solid rgb(207 207 207);
+  border-radius: 4px;
+}
+
+.enroll-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(51 152 218);
+  border: none;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.enroll-btn:hover {
+  background-color: rgba(51, 152, 218, 0.7);
+}

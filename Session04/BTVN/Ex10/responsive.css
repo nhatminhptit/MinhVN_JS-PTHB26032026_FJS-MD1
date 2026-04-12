@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  main {
+    height: 695px;
+  }
+
+  .introduce-card {
+    width: min(900px, 100% - 40px);
+    margin: calc(100vh / 3) auto;
+  }
+
+  .introduce-card .introduce-img {
+    float: left;
+    width: 40%;
+  }
+
+  .introduce-card .introduce-text {
+    float: right;
+    width: 55%;
+  }
+
+  .introduce-card .introduce-text .introduce-title {
+    margin-top: 12px;
+  }
+}
