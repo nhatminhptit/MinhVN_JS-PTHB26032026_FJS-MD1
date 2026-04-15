@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro,
+  .book {
+    padding: 30px 20px;
+  }
+}
